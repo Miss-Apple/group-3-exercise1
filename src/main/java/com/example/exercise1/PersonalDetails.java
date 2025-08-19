@@ -1,0 +1,20 @@
+package com.example.day12;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Entity
+@Data
+public class PersonalDetails {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String occupation;
+    private String email;
+    private String telNumber;
+}
