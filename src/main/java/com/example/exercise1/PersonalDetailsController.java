@@ -1,4 +1,4 @@
-package com.example.day12;
+package com.example.exercise1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

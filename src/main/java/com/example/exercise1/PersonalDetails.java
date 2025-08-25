@@ -1,4 +1,4 @@
-package com.example.day12;
+package com.example.exercise1;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,6 +11,8 @@ import lombok.Data;
 public class PersonalDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
     private String firstName;
     private String lastName;
     private String middleName;
